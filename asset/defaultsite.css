@@ -1,0 +1,162 @@
+/* General Demo Style */
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: //nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+.koekblik header {
+	width: 92%;
+	margin: 0 auto;
+	position: relative;
+	
+	padding: 60px 30px 50px;
+	text-align: center;
+}
+
+#smallheader {
+	text-align: center;
+	background: linear-gradient(-45deg, #fdccec 160px, #e7fbf9 160px, #e7fbf9);
+}
+
+#smallheader img {
+	/* max-height: 150px; */
+}
+
+#bigheader {
+	height: 100%;
+	background-color: #f7f7f7;
+	background-image:url('../images/defaultheader.png');
+	background-repeat: no-repeat;
+    background-position: 75% 100%; 
+	background-size: 150px;
+}
+
+#headertitel {
+	font-family: 'Old Standard TT', serif;
+	color: #797979;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 25px;
+}
+#headersubtitel {
+	font-family: 'Old Standard TT', serif;
+	color: #000;
+	text-shadow: 0 0 20px #fff;
+	font-size: 10px;
+	margin-top: -10px;
+}
+
+.normalpage {
+	font-family: 'Open Sans', sans-serif;
+	background:rgba(255,255,255,0.7);	
+	width: 90%;
+	text-align: left;
+	max-width: 1290px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	position: relative;
+	padding: 30px 30px 50px 30px;
+}
+
+.normalpage h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	line-height: 38px;
+	font-weight: 700;
+	color: #333;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #b6b6b6;
+	margin-bottom: 20px;
+}
+
+.orderregel {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	background-color: #b6b6b6;
+	color: #fff;
+	margin-left: 20px;
+	padding: 0 20px 0 20px;
+}
+
+.koekblik header h1 {
+	font-size: 34px;
+	line-height: 30px;
+	margin: 0 auto;
+	font-weight: 700;
+	color: #333;
+}
+
+.koekblik header h1 span {
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main > p {
+	text-align: center;
+	padding: 50px 20px;
+}
+
+/* Header Style */
+.codrops-top {
+	line-height: 24px;
+	font-size: 11px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+.codrops-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.8);
+	color: #000;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.vacaturelijst {
+	margin-left: 30px;
+}
